@@ -1,7 +1,7 @@
 
 - Objetivos do site
 
-Resposta: Vendas e descrições sobre algumas motos
+Resposta: Descrições sobre algumas motos
 
 - Público alvo
 
@@ -9,6 +9,6 @@ Resposta: Apaixonado por motos, não temos uma faixaetaria definida.
 
 - Palavras chaves
 
-Respostas: Motos, Duas rodas, adrenalina, alta velocidade
+Respostas: Motos, Duas rodas, adrenalina, alta velocidade, motocicletas
 - etc.
 
