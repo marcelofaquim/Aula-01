@@ -1,0 +1,112 @@
+@charset "uft-8";
+
+body{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ background: url("../imagens/fundo5.jpg") no-repeat;
+ 
+}
+
+div#interface{
+    background:gainsboro;
+    width: 1200px;
+    margin: -8px auto 0px auto;
+}
+
+#topo{
+    height: 150px; 
+}
+ nav.menu{
+    width: 700px;
+    display: block;
+    position: absolute; /* posiciona em qualquer lugar do site*/
+    top: 320px; /* ajusta o menu, se fica mais pra cima ou pra baixo*/
+     margin-left: 400px; /* centralizando o menu*/
+   z-index: 100;
+
+}
+
+.menu ul{
+    text-decoration: none;/* tirando a decoração do texto*/
+    list-style: none; /* tirando as bolinhas do menu*/
+    font-size: 1em;/* tirando a fonte do site*/
+     margin: 0px; /* tirando a margem da pagina*/
+    padding: 0px; /* é uma margem interna, sepra os texto como uma margem*/
+}
+
+.menu li{
+    float: left;/* colocando um do lado do outro(menus)*/
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+    padding: 5px 25px; /* afastando as letras uma da outra*/
+    margin: 0px;
+    display: block;
+}
+
+/* Sub menu*/
+.menu li ul{
+    display: none;
+    font-size:1.0em;
+}
+
+.menu li:hover ul{  /* mostra os submenu*/
+   display: block;
+    position: relative;
+}
+
+.menu li:hover li{
+    float: none; /* tira a flutuação das letras*/ 
+}
+
+
+.vrum{
+    position: relative;
+    max-width: 1200px;
+    height: auto;
+    left: 1.1%;
+}
+
+.img_motos{
+    float: right;
+    width: 30%;
+    margin: 20px;
+}
+
+h2{
+    text-align:center; /* centralizar o titulo*/
+    color: black;
+    font-size: 1em;
+    margin: 3px;
+}
+
+p{
+    text-align: center;
+    font-size: 1em;
+    text-indent:20px;/*paragrafo*/
+    color: black;
+}
+
+span a{
+    color: blue;
+    text-decoration: none;
+}
+
+span a:hover{
+    color: blue;
+}
+
+.rodape{
+    clear: both;
+    border-top: 2px solid; color: black; /* borda*/
+}
+
+.rodape p{
+    text-align: center;
+    font-size:  1.3em;
+}
+
+
+

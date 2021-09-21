@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+body{
+    background-color: gainsboro;
+    background: url("../imagens/fundo5.jpg") no-repeat;
+}
+
+#honda_text
+{
+    display: block;
+    width: 62%;
+    float: left;
+    margin: 5px auto;
+    padding: 0px 15px 0px 0px;
+}
+
+#honda_img
+{
+    display:block;
+    width: 20em;
+    float: left;
+    margin: 160px auto;
+    padding: 1px;
+}
+
+#honda_text01
+{
+    display:block;
+    width: 62%;
+    float: left;
+    margin: 5px auto;
+    padding: 0px 15px 0px 0px;
+    
+}
+
+#honda_img01
+{
+    /*display: block;*/
+    width: 6em;
+    float: left;
+    margin-right: auto;
+    padding: 1px;
+    margin: 160px auto;
+}
+
+h2{
+    color: black;
+    font-size: 1.8em;
+    text-align: center;
+    margin: 2px 0px;
+}
+h3{
+    color: blue;
+    font-size: 1.3em;
+    text-align: center;
+    margin: 2px 0px;
+}
+
+p{
+    text-align: center;
+    font-size: 1em;
+    text-indent: 10px;/*paragrafo*/
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
