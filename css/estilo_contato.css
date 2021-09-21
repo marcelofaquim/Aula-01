@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+    background-color: gainsboro;
+}
+
+form{
+    width: 75%;
+    margin: auto;
+}
+
+input, textarea{ /* quadradinhos*/
+    background: #fff;
+    font-size: 0.9em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-color: blue;
+}
+
+
+
+legend{
+    color: blue;
+    font-size: 1.2em;
+    font-weight: bold; /* fica em negrito*/
+}
+
+
+
+.btn{ /* botão*/
+    /*background:blue;*/
+    padding: 10px;
+    margin: 5px;
+    font-size: 1em;
+    border:none;
+    color:black;
+    font-weight: bold;
+    position: relative;/* criando um bloco para os 02 botões se mexerem juntos*/
+    left: 400px;
+    display: inline-block;
+}
+
