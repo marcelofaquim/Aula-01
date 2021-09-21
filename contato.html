@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" Aqui você irá encontra descrições sobre algumas motos.">
+    <meta name="keyworlds" content="Motos, Duas rodas, adrenalina, alta velocidade, motocicletas...">
+
+    <title> Honda </title>
+
+    <link rel="icon" href="imagens/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/estilo_home.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo_contato.css">
+    
+</head>
+<body>
+
+    <div id="interface">                                                         
+    
+                                                      
+            <img src="Imagens/BREMBO.jpg" alt="logo" title="Motos"> 
+
+
+            <nav class="menu"> <!--Navegação-->
+                <ul><!--Menu-->
+
+       
+
+                    <li> <a href="index.html"> Home </a> </li>
+            
+                        
+        
+                    <li>
+                           <a href= "Fotos.html">Motos</a>
+                         <ul><!-- Sub menu-->
+                            <li> <a href="Honda.html"> Honda </a> 
+                            <a href="harley_davidson.html"> Harley Davison </a>
+                            <a href = "bmw.html">Bmw </a> </li>
+                         </ul>
+                    
+                    <li>  <a href= "contato.html">Contatos </a> </li>
+                </ul>
+            </nav>
+      
+            <form > <!-- Formulario-->
+                <fieldset> <!-- Borda-->
+                    <legend> Identificação do usuario </legend> <!-- Legenda--> 
+    
+                    <p> <!--QUadrado para identificação de usuario-->
+                        <label for="cnome"> Nome</label>
+                        <input type="text" name="nome" id="cnome" size="30" maxlength="30" placeholder="Nome Completo" required autofocus> 
+                    </p>
+    
+    
+                    <p> <!-- Preenchimento para email-->
+                        <label for="cmail"> E-mail</label>
+                        <input type="emai" name="mail" id="cmail" size="30" maxlength="30" placeholder="Seu e-mail" required>
+                    </p>
+    
+                
+                    </fieldset>
+    
+                    <fieldset id="Mensagem">
+                        <legend> Mensagem do Usuario </legend>
+    
+                        <p>
+                            <label for="cmsg"> Mensagem: </label>
+                            <p>
+                                <textarea name="msg" id="cmsg" cols="50" rows="7" placeholder="Digite sua mensagem..."></textarea> <!-- cria caixa de mensagem grande-->
+                            </p>
+                        
+    
+                    </fieldset>
+    
+                
+    
+                <input type="submit" name="enviar" class="btn"> <!-- Botão de enviar mensagem-->
+                <input type="reset" name="limpar" class="btn" value="Limpar">
+            </form>
+    
+    </div>
+    </body>
+    </html>
